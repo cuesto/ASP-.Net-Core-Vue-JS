@@ -44,6 +44,7 @@ namespace Sistema.Web
                 app.UseHsts();
             }
 
+
             app.UseHttpsRedirection();
             app.UseMvc();
         }
